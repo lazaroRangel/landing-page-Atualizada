@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+*{
+    margin: 0;
+    padding: 0;
+
+} 
+:root{
+    --branco : #fff; 
+    --dark1 : #34344e;
+    --dark2 : #3a415a;
+    --escuro3 :#566981;
+    --dark4 : #89a7b1;
+    --dark5 : #cbdad5;
+    --dark6 : #2f2f46;
+    --cyan1 : #70e3ea;
+}
+body{
+    background-color: #34344e;
+    height: 100vh;
+    font-family : 'Lato' ;
+
+}
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        padding: .8rem; 
+        background-color: #2f2f46 ;
+        min-height: 50px;
+
+    }
+    .box-img-header{
+        height: 100%;
+    }
+    .img-MINHA-LOGO{ max-width: 60px;
+        height: 100%;
+
+    }
+    nav{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    nav a {
+
+    text-decoration:none; 
+    color:var(--branco);
+    }
+    .nav a :hover{
+        color:var(--dark4);
+        transition: 4s;
+        
+    }
+    .box-btn-actions{
+        display: flex;
+        gap: 1rem;
+    }
+    button{
+        padding: .6rem;
+        font-size: .9rem;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: .4s;
+    }
+    .btn-actions{
+        background-color: transparent;
+        border: 1px solid var(--branco)
+        
+    }
+.btn-actions:hover{
+background-color: #566981;
+border: 1px solid var(--escuro3)
+} 
+main{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem
+
+}
+section{
+    padding: 4rem;
+}
+.first-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 650px;
+
+}
+
+.first-section  div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 300px;
+
+}
+h1{
+    font-size: 4rem;
+    color: var(--branco);
+    letter-spacing: 8px;
+}
+strong{
+    color: var(--cyan1);
+}
+.first-section P{
+    color: var(--branco);
+
+}
+.box-img-main{
+    max-width: 450px;
+    padding: 1re,;
+}
+.img-foto-pincipal{
+    border-radius: 50%;
+    width: 50%;
+}
+.third-section{
+    background-color: var(--dark2);
+}
+ 
+ .third-section ul { 
+    list-style: none
+ }
+ 
+.curriculum{
+    color:var(--dark5);
+}
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    flex-wrap: wrap;
+}
+h2{
+    color:#fff;
+}
+.ultima{
+    line-height: 4
+}
+.six-sectio{
+    line-height: 4
+}
+.copi{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.aviso{
+      display: flex;
+    justify-content: center;
+    align-content: center;
+}
